@@ -10,10 +10,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-}
-
-tasks.test {
-    useJUnitPlatform()
+    implementation("tech.tablesaw:tablesaw-core:0.43.1")
+    implementation("org.jfree:jfreechart:1.5.4")
 }
